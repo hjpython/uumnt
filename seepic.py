@@ -18,6 +18,7 @@ def onKeyboardEvent(event):
         pyautogui.press('enter')
         time.sleep(1)
         pyautogui.press(['right', 'left'])
+        time.sleep(0.5)
         pyautogui.press('enter')
     elif event.Key == 'Space':
         currentMouseX, currentMouseY = pyautogui.position()
