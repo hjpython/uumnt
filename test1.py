@@ -65,8 +65,8 @@ import win32api
 #         print(x, y)
 
 # pyautogui.click(x, y)
-currentMouseX, currentMouseY = pyautogui.position()
-print(currentMouseX, currentMouseY)
+# currentMouseX, currentMouseY = pyautogui.position()
+# print(currentMouseX, currentMouseY)
 # pyautogui.moveTo(90,169)
 # pyautogui.dragRel(170, None, 0.3, button='left')
 #print(pyautogui.locateOnScreen(r'D:\(hp)google\pycharm\uumnt\url.png'))
@@ -75,3 +75,8 @@ print(currentMouseX, currentMouseY)
 # pyautogui.moveTo(None, y + 313)
 # pyautogui.moveTo(x + 390, None, 0.5)
 #pyautogui.moveTo(x + 361, y + 313, 1)
+# d = {0:'hj',1:'lll'}
+# print(d[1])
+
+d = ['hj','lll']
+print(d[1])
